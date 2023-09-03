@@ -1,0 +1,16 @@
+Elaborar uma página de um site contendo os seguintes conteúdos:
+ 1. Favicon x
+ 2. Título x 
+ 3. Subtítulo x
+ 4. Parágrafo x
+ 5. Imagem x
+ 6. Matéria com: Link; Endereço pessoal (podendo ser falso). x
+ 7. Símbolos x
+ 8. Cor sólida x
+Título: Economia
+Subtítulo: Petrobras é a petroleira que mais pagou dividendos no 1º semestre
+Parágrafo: Mesmo com a menor receita entre seis das maiores petroleiras do mundo com ações negociadas em bolsas de valores, a Petrobras foi a que mais pagou dividendos aos acionistas no primeiro semestre de 2023. Com receita de US$ 52,48 bilhões, a Petrobras pagou US$ 10,92 bilhões em dividendos referentes aos meses de janeiro a junho deste ano.
+
+A segunda petroleira que mais pagou dividendos nesse período foi a Exxon Mobil que distribuiu US$ 7,44 bilhões aos acionistas, tendo registrado uma receita no período mais de três vezes superior à da Petrobras (US$ 169,48 bilhões). Os dividendos são a parte do lucro distribuída aos acionistas.
+
+Tal levantamento foi realizado pelo vice-presidente da Associação dos Engenheiros da Petrobras (Aepet), Felipe Coutinho. O engenheiro químico diz que a manutenção desse nível de distribuição de dividendos é insustentável e coloca em risco o futuro da companhia.
