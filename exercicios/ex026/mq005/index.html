@@ -4,30 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testando Media Queries</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
-                <li>Opção 1</li>
-                <li>Opção 2</li>
-                <li>Opção 3</li>
-                <li>Opção 4</li>
-                <li>Opção 5</li>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
             </ul>
         </menu>
     </header>
     <main>
         <article>
             <h2>Testando Media Queries</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum mollitia hic ipsum iusto quae aliquid minus provident rem enim, molestias non ratione assumenda quod error. Tempora quibusdam non sed ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium assumenda molestiae magnam doloribus error deserunt minus, vitae dignissimos quod in tempore corporis accusantium maiores porro expedita voluptates facere repellat a?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum mollitia hic ipsum iusto quae aliquid minus provident rem enim, molestias non ratione assumenda quod error. Tempora quibusdam non sed ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium assumenda molestiae magnam doloribus error deserunt minus, vitae dignissimos quod in tempore corporis accusantium maiores porro expedita voluptates facere repellat a? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel veritatis fuga culpa tenetur consequatur. Quasi laborum, distinctio quis deleniti blanditiis eos, dicta provident voluptas libero quam qui voluptates error ipsum!</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ducimus quasi dignissimos, accusamus harum ea obcaecati fugit praesentium quod non natus? Quo architecto aut debitis deserunt eum, quod alias fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sequi aspernatur repellat, magni ipsa, impedit ex ad soluta rerum iure illum? Nihil ea earum nobis. Laborum, quos! Rem, similique nostrum?</p>
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni distinctio nam commodi, hic ab cum qui nemo molestiae fugiat earum porro omnis est reprehenderit aliquam eum nisi, aut labore eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, delectus! Exercitationem unde ullam pariatur ipsum eveniet officiis corrupti? Eos modi, pariatur cupiditate tempore officiis quos sunt repellendus eum quia sed.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ducimus quasi dignissimos, accusamus harum ea obcaecati fugit praesentium quod non natus? Quo architecto aut debitis deserunt eum, quod alias fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sequi aspernatur repellat, magni ipsa, impedit ex ad soluta rerum iure illum? Nihil ea earum nobis. Laborum, quos! Rem, similique nostrum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsum odit animi, eos, nemo est vero exercitationem neque adipisci mollitia nihil laboriosam? Dolor dignissimos similique et, officia quas exercitationem tempore.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni distinctio nam commodi, hic ab cum qui nemo molestiae fugiat earum porro omnis est reprehenderit aliquam eum nisi, aut labore eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, delectus! Exercitationem unde ullam pariatur ipsum eveniet officiis corrupti? Eos modi, pariatur cupiditate tempore officiis quos sunt repellendus eum quia sed. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores corrupti quia quasi? Veniam modi rem eius magnam ullam hic, sed odio libero possimus nostrum eveniet, assumenda nam quia aut dolore?</p>
         </article>
     </main>
-    
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
